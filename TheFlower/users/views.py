@@ -2,9 +2,9 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
 from django.views.generic import DetailView
-
+from django.contrib import messages
 from .forms import UserRegistrationForm, LoginForm
-from  .models import CustomUser
+from .models import CustomUser
 
 
 def registration(request):
@@ -15,6 +15,8 @@ def registration(request):
         if form.is_valid():
             user = form.save()
             login(request, user)
+            messages.success(request, f'Пользователь {user} успешно зарегестрирован')
+            print(type(messages), messages.success)
             return redirect('/')
         else:
             for error in list(form.errors.values()):
@@ -35,6 +37,7 @@ def login_view(request):
         user = form.login(request)
         if user:
             login(request, user)
+            messages.success(request, f'Вход {user} успешно выполнен')
             return redirect("/")
     return render(request, 'users/login.html', {'form': form})
 
