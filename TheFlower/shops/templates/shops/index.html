@@ -1,0 +1,38 @@
+{% extends "shops/base.html" %}
+{% load static %}
+{% block extra_head %}
+  <link rel="stylesheet" href='{%static "css/index.css" %}' />
+{% endblock %}
+{% block navigation %}
+<!--  {% for shop in shops %}-->
+<!--  <li class="nonauth">-->
+<!--    <a href="#">-->
+<!--      <span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>-->
+<!--      <span class="title">{{shop.name}}</span>-->
+<!--    </a>-->
+<!--  </li>-->
+<!--  {% endfor %}-->
+{% endblock %}
+
+{% block content %}
+<div class="titleContent">
+  <h3>Выберете город из списка:</h3>
+</div>
+
+<div class="dropdown">
+  <button onclick="cityFunction()" class="dropbtn">Города</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Название города" id="myInput" onkeyup="filterFunction()">
+     {% for shop in shops %}
+    <a href="shops/{{ shop.slug }}">
+      {{ shop.city }}
+    </a>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+
+{% block extra_script %}
+  <script type="text/javascript" src = '{%static "js/dropmenu.js" %}'></script>
+{% endblock %}

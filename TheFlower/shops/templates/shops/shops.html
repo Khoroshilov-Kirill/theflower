@@ -1,0 +1,54 @@
+{% extends "shops/base.html" %}
+{% load static %}
+{% block extra_head %}
+  <link rel="stylesheet" href='{%static "css/shops.css" %}' />
+{% endblock %}
+{% block navigation %}
+<!--  {% for shop in shops %}-->
+<!--  <li class="nonauth">-->
+<!--    <a href="#">-->
+<!--      <span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>-->
+<!--      <span class="title">{{shop.name}}</span>-->
+<!--    </a>-->
+<!--  </li>-->
+<!--  {% endfor %}-->
+{% endblock %}
+
+{% block content %}
+<div class="titleContent">
+  <h3>Цветочные магазины города: {{ shops.first.city }}</h3>
+</div>
+
+<div class="cardBox">
+    {% for shop in shops%}
+    <div class="card">
+        <a href="{{ shop.pk }}" class="shop"></a>
+        <div>
+            <div class="title">{{ shop.name }}</div>
+            <div class="cardName">Город: {{ shop.city }}, {{ shop.district }} обл.</div>
+            <div class="cardName">Адрес: {{ shop.address }}</div>
+            <div class="cardName">Тел.: {{ shop.phone }}</div>
+            <div class="cardName">Email: {{ shop.email }}</div>
+            <div class="social">
+            {% for social in shop.social.items %}
+                {% if social.1 != None %}
+                    <a href="https://{{social.1}}"><ion-icon name="logo-{{social.0}}"></ion-icon></a>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+        <div class="imageBox">
+            <img src="{{shop.image.url}}" alt="">
+        </div>
+    </div>
+
+    {% endfor %}
+
+
+</div>
+{% endblock %}
+
+
+{% block extra_script %}
+<!--  <script type="text/javascript" src = '{%static "js/dropmenu.js" %}'></script>-->
+{% endblock %}

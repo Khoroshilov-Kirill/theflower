@@ -1,0 +1,44 @@
+[
+{
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$LN7mSOyCMGnnEAzdeorsUD$1K7CjnXCjq2lQpGlScAvrfkOKPzvDprzFj+t6N/eSRI=",
+        "last_login": "2023-08-11T07:00:03.668Z",
+        "is_superuser": true,
+        "username": "Kirill",
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-08-10T06:15:52.244Z",
+        "email": "413@413.com",
+        "status": "customer",
+        "phone": null,
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ebpenQFQzbrbm9DueGhNqm$B8whJG9Th9QQWQVsC2tGBkrFDQ3haYc5K2cN3EcMttQ=",
+        "last_login": "2023-08-10T15:45:26.505Z",
+        "is_superuser": false,
+        "username": "test",
+        "first_name": "test",
+        "last_name": "test",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-08-10T15:27:34.108Z",
+        "email": "test@413.com",
+        "status": "customer",
+        "phone": null,
+        "image": "",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

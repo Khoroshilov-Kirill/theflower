@@ -1,0 +1,2102 @@
+[
+    {
+        "model": "shops.shop",
+        "pk": 1,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Суми",
+            "district": "Сумська",
+            "country": "Україна",
+            "address": "Вулиця Жовтнева, 18",
+            "phone": "+380663456789",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 2,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Полтава",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380671234567",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Poltava"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 3,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Рівне",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380956789012",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 4,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Київ",
+            "district": "Житомирська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380968901234",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Kiyiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 5,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Запоріжжя",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380661234567",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 6,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Рівне",
+            "district": "Житомирська",
+            "country": "Україна",
+            "address": "Вулиця Жовтнева, 18",
+            "phone": "+380984567890",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 7,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Тернопіль",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Корольова, 11",
+            "phone": "+380730123456",
+            "email": "example20@i.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/1.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 8,
+        "fields": {
+            "name": "Ромашка",
+            "city": "Кропивницький",
+            "district": "Закарпатська",
+            "country": "Україна",
+            "address": "Вулиця Генерала Чупринки, 5",
+            "phone": "+380972345678",
+            "email": "example5@i.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Kropivnitskii"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 9,
+        "fields": {
+            "name": "Квіточка",
+            "city": "Харьків",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Гагаріна, 15",
+            "phone": "+380975678901",
+            "email": "example20@i.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 10,
+        "fields": {
+            "name": "Соняшник",
+            "city": "Миколаїв",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380687890123",
+            "email": "example9@ukrpost.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 11,
+        "fields": {
+            "name": "Розова гармонія",
+            "city": "Ужгород",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380984567890",
+            "email": "example9@ukrpost.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Uzhgorod"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 12,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Тернопіль",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Незалежності, 3",
+            "phone": "+380959012345",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 13,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Суми",
+            "district": "Сумська",
+            "country": "Україна",
+            "address": "Вулиця Руська, 17",
+            "phone": "+380635678901",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 14,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Львів",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Лесі Українки, 4",
+            "phone": "+380671234567",
+            "email": "example2@yahoo.com",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Lviv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 15,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Миколаїв",
+            "district": "Житомирська",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380672345678",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/2.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 16,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Івано-Франківськ",
+            "district": "Волинська",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380663456789",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Ivano-Frankivsk"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 17,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Харьків",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Генерала Чупринки, 5",
+            "phone": "+380960123456",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 18,
+        "fields": {
+            "name": "Троянди світу",
+            "city": "Житомир",
+            "district": "Миколаївська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380730123456",
+            "email": "example9@ukrpost.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/2.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 19,
+        "fields": {
+            "name": "Розова гармонія",
+            "city": "Херсон",
+            "district": "Вінницька",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380999012345",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Kherson"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 20,
+        "fields": {
+            "name": "Ромашка",
+            "city": "Житомир",
+            "district": "Херсонська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380663456789",
+            "email": "example11@list.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 21,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Рівне",
+            "district": "Миколаївська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380672345678",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 22,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Івано-Франківськ",
+            "district": "Волинська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380956789012",
+            "email": "example11@list.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Ivano-Frankivsk"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 23,
+        "fields": {
+            "name": "Квітка-щастя",
+            "city": "Запоріжжя",
+            "district": "Івано-Франківська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380663456789",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 24,
+        "fields": {
+            "name": "Квіти для тебе",
+            "city": "Чернігів",
+            "district": "Херсонська",
+            "country": "Україна",
+            "address": "Вулиця Бандери, 8",
+            "phone": "+380671234567",
+            "email": "example6@mail.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Chernigiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 25,
+        "fields": {
+            "name": "Квіточка",
+            "city": "Житомир",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380730123456",
+            "email": "example6@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 26,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Запоріжжя",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380672345678",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 27,
+        "fields": {
+            "name": "Ромашка",
+            "city": "Житомир",
+            "district": "Івано-Франківська",
+            "country": "Україна",
+            "address": "Вулиця Стрийська, 14",
+            "phone": "+380960123456",
+            "email": "example6@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 28,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Запоріжжя",
+            "district": "Полтавська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380661234567",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 29,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Рівне",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380663456789",
+            "email": "example9@ukrpost.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 30,
+        "fields": {
+            "name": "Квіти для тебе",
+            "city": "Запоріжжя",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380960123456",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/1.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 31,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Запоріжжя",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380635678901",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 32,
+        "fields": {
+            "name": "Троянди світу",
+            "city": "Запоріжжя",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380671234567",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 33,
+        "fields": {
+            "name": "Квіточка",
+            "city": "Чернівці",
+            "district": "Миколаївська",
+            "country": "Україна",
+            "address": "Вулиця Генерала Чупринки, 5",
+            "phone": "+380972345678",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 34,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Чернігів",
+            "district": "Миколаївська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380730123456",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Chernigiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 35,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Полтава",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380972345678",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/6.jpg",
+            "slug": "Poltava"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 36,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Чернігів",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Шевченка, 1",
+            "phone": "+380960123456",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Chernigiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 37,
+        "fields": {
+            "name": "Ромашка",
+            "city": "Суми",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Бандери, 8",
+            "phone": "+380667890123",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 38,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Івано-Франківськ",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Генерала Чупринки, 5",
+            "phone": "+380672345678",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Ivano-Frankivsk"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 39,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Запоріжжя",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380635678901",
+            "email": "example12@inbox.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 40,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Тернопіль",
+            "district": "Волинська",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380687890123",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 41,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Ужгород",
+            "district": "Донецька",
+            "country": "Україна",
+            "address": "Вулиця Руська, 17",
+            "phone": "+380983456789",
+            "email": "example4@ukr.net",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/2.jpg",
+            "slug": "Uzhgorod"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 42,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Суми",
+            "district": "Київська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380959012345",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/2.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 43,
+        "fields": {
+            "name": "Ромашка",
+            "city": "Тернопіль",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380667890123",
+            "email": "example3@hotmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 44,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Житомир",
+            "district": "Сумська",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380960123456",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 45,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Херсон",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Генерала Чупринки, 5",
+            "phone": "+380687890123",
+            "email": "example4@ukr.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Kherson"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 46,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Кропивницький",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380687890123",
+            "email": "example18@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Kropivnitskii"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 47,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Івано-Франківськ",
+            "district": "Донецька",
+            "country": "Україна",
+            "address": "Вулиця Бандери, 8",
+            "phone": "+380671234567",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Ivano-Frankivsk"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 48,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Рівне",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380972345678",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 49,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Запоріжжя",
+            "district": "Донецька",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380999012345",
+            "email": "example18@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 50,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Київ",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380663456789",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/5.jpg",
+            "slug": "Kiyiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 51,
+        "fields": {
+            "name": "Квітка-щастя",
+            "city": "Запоріжжя",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380661234567",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/2.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 52,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Чернівці",
+            "district": "Дніпропетровська",
+            "country": "Україна",
+            "address": "Вулиця Бандери, 8",
+            "phone": "+380671234567",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 53,
+        "fields": {
+            "name": "Розова гармонія",
+            "city": "Суми",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380661234567",
+            "email": "example4@ukr.net",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 54,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Чернівці",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Незалежності, 3",
+            "phone": "+380667890123",
+            "email": "example3@hotmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 55,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Львів",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Корольова, 11",
+            "phone": "+380936789012",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Lviv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 56,
+        "fields": {
+            "name": "Флорист",
+            "city": "Миколаїв",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Лесі Українки, 4",
+            "phone": "+380960123456",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 57,
+        "fields": {
+            "name": "Троянди світу",
+            "city": "Рівне",
+            "district": "Полтавська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380663456789",
+            "email": "example3@hotmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/2.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 58,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Тернопіль",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380672345678",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 59,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Рівне",
+            "district": "Дніпропетровська",
+            "country": "Україна",
+            "address": "Вулиця Незалежності, 3",
+            "phone": "+380663456789",
+            "email": "example1@gmail.com",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 60,
+        "fields": {
+            "name": "Квіти для тебе",
+            "city": "Харьків",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380663456789",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/6.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 61,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Чернівці",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Руська, 17",
+            "phone": "+380975678901",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 62,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Запоріжжя",
+            "district": "Тернопільська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380984567890",
+            "email": "example2@yahoo.com",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 63,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Київ",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Жовтнева, 18",
+            "phone": "+380671234567",
+            "email": "example14@yahoo.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Kiyiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 64,
+        "fields": {
+            "name": "Квітка-щастя",
+            "city": "Тернопіль",
+            "district": "Дніпропетровська",
+            "country": "Україна",
+            "address": "Вулиця Гагаріна, 15",
+            "phone": "+380671234567",
+            "email": "example1@gmail.com",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/2.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 65,
+        "fields": {
+            "name": "Лілея",
+            "city": "Миколаїв",
+            "district": "Полтавська",
+            "country": "Україна",
+            "address": "Вулиця Лесі Українки, 4",
+            "phone": "+380667890123",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 66,
+        "fields": {
+            "name": "Розова гармонія",
+            "city": "Кропивницький",
+            "district": "Київська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380738901234",
+            "email": "example9@ukrpost.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Kropivnitskii"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 67,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Чернівці",
+            "district": "Вінницька",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380936789012",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 68,
+        "fields": {
+            "name": "Квітка-щастя",
+            "city": "Чернігів",
+            "district": "Харківська",
+            "country": "Україна",
+            "address": "Вулиця Корольова, 11",
+            "phone": "+380635678901",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Chernigiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 69,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Чернігів",
+            "district": "Полтавська",
+            "country": "Україна",
+            "address": "Вулиця Стрийська, 14",
+            "phone": "+380687890123",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Chernigiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 70,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Житомир",
+            "district": "Волинська",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380959012345",
+            "email": "example4@ukr.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 71,
+        "fields": {
+            "name": "Флорист",
+            "city": "Харьків",
+            "district": "Житомирська",
+            "country": "Україна",
+            "address": "Вулиця Стрийська, 14",
+            "phone": "+380983456789",
+            "email": "example10@rambler.ru",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 72,
+        "fields": {
+            "name": "Квітковий рай",
+            "city": "Житомир",
+            "district": "Івано-Франківська",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380671234567",
+            "email": "example2@yahoo.com",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/5.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 73,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Житомир",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380972345678",
+            "email": "example5@i.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 74,
+        "fields": {
+            "name": "Лілея",
+            "city": "Запоріжжя",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380635678901",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/6.jpg",
+            "slug": "Zaporizhzhia"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 75,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Львів",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380667890123",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/4.jpg",
+            "slug": "Lviv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 76,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Харьків",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Жовтнева, 18",
+            "phone": "+380972345678",
+            "email": "example6@mail.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/7.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 77,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Миколаїв",
+            "district": "Запорізька",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380738901234",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 78,
+        "fields": {
+            "name": "Квіти для тебе",
+            "city": "Херсон",
+            "district": "Сумська",
+            "country": "Україна",
+            "address": "Вулиця Богуна,19",
+            "phone": "+380956789012",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Kherson"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 79,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Ужгород",
+            "district": "Львівська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380738901234",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Uzhgorod"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 80,
+        "fields": {
+            "name": "Троянди світу",
+            "city": "Полтава",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Театральна, 7",
+            "phone": "+380959012345",
+            "email": "example1@gmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/6.jpg",
+            "slug": "Poltava"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 81,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Суми",
+            "district": "Закарпатська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380999012345",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 82,
+        "fields": {
+            "name": "Хризантема",
+            "city": "Суми",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Руська, 17",
+            "phone": "+380671234567",
+            "email": "example19@bigmir.net.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 83,
+        "fields": {
+            "name": "Розова гармонія",
+            "city": "Миколаїв",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Богдана Хмельницького, 9",
+            "phone": "+380968901234",
+            "email": "example15@gmail.com.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Mikolayiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 84,
+        "fields": {
+            "name": "Райський сад",
+            "city": "Рівне",
+            "district": "Київська",
+            "country": "Україна",
+            "address": "Вулиця Садова, 6",
+            "phone": "+380983456789",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/7.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 85,
+        "fields": {
+            "name": "Квіточка",
+            "city": "Івано-Франківськ",
+            "district": "Волинська",
+            "country": "Україна",
+            "address": "Вулиця Мазепи, 10",
+            "phone": "+380661234567",
+            "email": "example20@i.ua",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/4.jpg",
+            "slug": "Ivano-Frankivsk"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 86,
+        "fields": {
+            "name": "Романтичний букет",
+            "city": "Суми",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Театральна, 7",
+            "phone": "+380635678901",
+            "email": "example3@hotmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/6.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 87,
+        "fields": {
+            "name": "Барви літа",
+            "city": "Рівне",
+            "district": "Донецька",
+            "country": "Україна",
+            "address": "Вулиця Театральна, 7",
+            "phone": "+380687890123",
+            "email": "example5@i.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/8.jpg",
+            "slug": "Rivne"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 88,
+        "fields": {
+            "name": "Соняшник",
+            "city": "Чернівці",
+            "district": "Донецька",
+            "country": "Україна",
+            "address": "Вулиця Полтавська, 13",
+            "phone": "+380956789012",
+            "email": "example2@yahoo.com",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/1.jpg",
+            "slug": "Chernivtsi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 89,
+        "fields": {
+            "name": "Акваріум квітів",
+            "city": "Київ",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Бандери, 8",
+            "phone": "+380667890123",
+            "email": "example8@meta.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/2.jpg",
+            "slug": "Kiyiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 90,
+        "fields": {
+            "name": "Соняшник",
+            "city": "Полтава",
+            "district": "Херсонська",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380975678901",
+            "email": "example20@i.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/3.jpg",
+            "slug": "Poltava"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 91,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Суми",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Гагаріна, 15",
+            "phone": "+380960123456",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 92,
+        "fields": {
+            "name": "Квітка-щастя",
+            "city": "Харьків",
+            "district": "Дніпропетровська",
+            "country": "Україна",
+            "address": "Вулиця Корольова, 11",
+            "phone": "+380672345678",
+            "email": "example2@yahoo.com",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/1.jpg",
+            "slug": "Kharkiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 93,
+        "fields": {
+            "name": "Квіти Землі",
+            "city": "Тернопіль",
+            "district": "Кіровоградська",
+            "country": "Україна",
+            "address": "Вулиця Зелена, 20",
+            "phone": "+380684567890",
+            "email": "example5@i.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Ternopil"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 94,
+        "fields": {
+            "name": "Флорист",
+            "city": "Кропивницький",
+            "district": "Одеська",
+            "country": "Україна",
+            "address": "Вулиця Театральна, 7",
+            "phone": "+380972345678",
+            "email": "example4@ukr.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/8.jpg",
+            "slug": "Kropivnitskii"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 95,
+        "fields": {
+            "name": "Соняшник",
+            "city": "Ужгород",
+            "district": "Миколаївська",
+            "country": "Україна",
+            "address": "Вулиця Театральна, 7",
+            "phone": "+380667890123",
+            "email": "example16@mail.ua",
+            "social": {
+                "facebook": null,
+                "instagram": null,
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Uzhgorod"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 96,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Житомир",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Кропивницького, 16",
+            "phone": "+380672345678",
+            "email": "example7@bigmir.net",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": "tiktok.com",
+                "youtube": "youtube.com"
+            },
+            "image": "shops/1.jpg",
+            "slug": "Zhitomir"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 97,
+        "fields": {
+            "name": "Колірні фантазії",
+            "city": "Київ",
+            "district": "Полтавська",
+            "country": "Україна",
+            "address": "Вулиця Соборна, 2",
+            "phone": "+380671234567",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": null,
+                "tiktok": "tiktok.com",
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Kiyiv"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 98,
+        "fields": {
+            "name": "Екзотичний світ",
+            "city": "Полтава",
+            "district": "Луганська",
+            "country": "Україна",
+            "address": "Вулиця Руська, 17",
+            "phone": "+380635678901",
+            "email": "example13@bk.ru",
+            "social": {
+                "facebook": "Facebook.com",
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/3.jpg",
+            "slug": "Poltava"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 99,
+        "fields": {
+            "name": "Квіти на подарунок",
+            "city": "Суми",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Корольова, 11",
+            "phone": "+380968901234",
+            "email": "example17@ukr.net.ua",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": null
+            },
+            "image": "shops/1.jpg",
+            "slug": "Sumi"
+        }
+    },
+    {
+        "model": "shops.shop",
+        "pk": 100,
+        "fields": {
+            "name": "Парадіз квітів",
+            "city": "Полтава",
+            "district": "Рівненська",
+            "country": "Україна",
+            "address": "Вулиця Жовтнева, 18",
+            "phone": "+380936789012",
+            "email": "example3@hotmail.com",
+            "social": {
+                "facebook": null,
+                "instagram": "instagram.com",
+                "tiktok": null,
+                "youtube": "youtube.com"
+            },
+            "image": "shops/6.jpg",
+            "slug": "Poltava"
+        }
+    }
+]

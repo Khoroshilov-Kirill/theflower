@@ -1,0 +1,60 @@
+{% extends "shops/base.html" %}
+{% load static %}
+{% block extra_head %}
+  <link rel="stylesheet" href='{%static "css/product.css" %}' />
+{% endblock %}
+{% block navigation %}
+  {% for category in categories %}
+  <li class="nonauth">
+    <a href="{% url 'prodcategory' category_id=category.pk  shop_id=shop_id %} ">
+      <span class="icon"><ion-icon name={{category.icon}}></ion-icon></span>
+      <span class="title">{{category.category}}</span>
+    </a>
+  </li>
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+<div class="titleContent">
+  <h3>Товары магазина:
+      {% if products.first.shop_id %}
+        {{products.first.shop_id}},  города: {{products.first.shop_id.city}}
+      {% else %}
+        Нет товаров данной категории :(
+      {% endif %}</h3>
+</div>
+
+<div class="cardBox">
+    {% for product in products%}
+    <div class="card">
+        <a href="{% url 'details' pk=product.pk  shop_id=shop_id%}"></a>
+        <div class="innerCard">
+            <div class="title">{{ product.title }}</div>
+            <div class="cardName">Описание: {{ product.description|truncatechars:100 }}</div>
+            <div class="cardName">В наличии: {{ product.amount }} шт.</div>
+            <div class="cardName">Категория: {{ product.category_id }}</div>
+            <div class="cardName price">Цена: {{ product.price }} грн/шт.</div>
+
+        </div>
+        <div class="imageBox">
+            <img src="{{product.image.url}}" alt="">
+        </div>
+        <div class="buttonCart">
+            <div class="count">
+              <div class="minus">-</div>
+              <div class="number" data-amount="{{product.amount}}">1</div>
+              <div class="plus">+</div>
+            </div>
+            <button type="submit">В корзину</button>
+        </div>
+    </div>
+    {% endfor %}
+
+
+</div>
+{% endblock %}
+
+
+{% block extra_script %}
+  <script type="text/javascript" src = '{%static "js/counter.js" %}'></script>
+{% endblock %}

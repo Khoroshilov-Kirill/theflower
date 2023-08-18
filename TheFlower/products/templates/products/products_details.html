@@ -1,0 +1,87 @@
+{% extends "shops/base.html" %}
+{% load static %}
+{% block extra_head %}
+  <link rel="stylesheet" href='{%static "css/product_details.css" %}' />
+{% endblock %}
+
+{% block navigation %}
+  {% for category in categories %}
+  <li class="nonauth">
+    <a href="{% url 'prodcategory' category_id=category.pk  shop_id=shop_id %} ">
+      <span class="icon"><ion-icon name={{category.icon}}></ion-icon></span>
+      <span class="title">{{category.category}}</span>
+    </a>
+  </li>
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+    <div class="detail">
+        <div class="imageCard">
+            <img src="{{products.first.image.url}}" alt="">
+        </div>
+        <div class="info">
+            <div class="title">{{products.first.title}}</div>
+            <div class="category">Категория: {{products.first.category_id}}</div>
+            <div class="shop">Продавец: {{products.first.shop_id}}</div>
+            <div class="city">Город: {{products.first.shop_id.city}}</div>
+            <div class="address">Адресс: {{products.first.shop_id.address}}</div>
+            <div class="phone">Телефон: {{products.first.shop_id.phone}}</div>
+            <div class="amount">Количество в наличии: {{products.first.amount}} шт.</div>
+            <div class="price">Цена: {{products.first.price}} грн/шт.</div>
+            <div class="count">
+              <div class="minus">-</div>
+              <div class="number" data-amount="{{products.first.amount}}">1</div>
+              <div class="plus">+</div>
+            </div>
+            <div class="buttonCart">
+                <button type="submit">В корзину</button>
+            </div>
+
+        </div>
+    </div>
+        <div class="description">
+            <h3>Описание товара:</h3>
+            <hr align="center" width=auto size="3" color="#287bff" />
+            <br>
+            <span>{{products.first.description}}</span>
+        </div>
+        <div class="reviewArea">
+            <form method="POST">
+                {% csrf_token %}
+            <div class="sendReviews">
+                {{formReview}}
+                <div class="buttonSubmit">
+                    <button type="submit" name="sendRewiew">Отправить отзыв</button>
+                </div>
+            </div>
+            </form>
+
+            <div class="review">
+                {% for review in reviews %}
+                <div class="userName">{{review.user_id}}</div>
+                <hr align="center" width=auto size="3" color="#287bff" />
+                <div class="userReview">{{review.review}}</div>
+                <div class="dateReview">{{review.date|date:"d-m-Y"}}</div>
+                <br>
+                {% empty %}
+                <div class="review">
+                    <div class="userName">По этому товару еще нет отзывов... Будьте первым</div>
+                    <hr align="center" width=auto size="3" color="#287bff" />
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+
+
+{% endblock %}
+
+
+
+<!--    shop_id = models.ForeignKey('shops.Shop', on_delete=models.CASCADE)-->
+<!--    category_id = models.ForeignKey(Category, on_delete=models.CASCADE)-->
+
+{% block extra_script %}
+  <script type="text/javascript" src = '{%static "js/counter.js" %}'></script>
+{% endblock %}
