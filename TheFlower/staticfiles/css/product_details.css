@@ -1,0 +1,240 @@
+.detail
+{
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+    align-items: center;
+    margin: 20px;
+}
+.detail .imageCard,
+.detail .info,
+.description,
+.reviewArea,
+.reviewArea .review
+{
+    position: relative;
+	background: var(--white);
+	padding: 5px;
+	margin: 20px;
+	margin-top: 45px;
+	border-radius: 20px;
+	display: flex;
+	height: 100%;
+
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-height: 500px;
+}
+.detail .imageCard
+{
+    align-items: center;
+    justify-content: center;
+}
+.detail .imageCard img
+{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+}
+.info > div
+{
+    color: var(--black2);
+    font-size: 1.1em;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.info .title
+{
+    position: relative;
+    font-weight: 500;
+    font-size: 2em;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.info .amount
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.info .price
+{
+    color: var(--blue);
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.info .count
+{
+	color: var(--black1);
+	font-size: 1.8em;
+	margin-top: 15px;
+    display:flex;
+    justify-content:center;
+}
+
+.info .count .minus,
+.info .count .number,
+.info .count .plus
+{
+    display:flex;
+    width:40px;
+    height:40px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.info .count .number
+{
+    width:60px;
+    border-radius: 30%;
+}
+.info:hover .count .number,
+.info:hover .count .minus,
+.info:hover .count .plus
+{
+    background-color: var(--white);
+}
+
+.info .buttonCart
+{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.info .buttonCart button:hover,
+.reviewArea .sendReviews button:hover
+ {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+.description,
+.reviewArea
+
+{
+    display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	padding: 50px;
+	margin: 40px;
+	max-height: max-content;
+}
+.description h3
+{
+    padding-bottom: 10px;
+}
+.description span
+{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.reviewArea .sendReviews textarea
+{
+  width:100%;
+  border: 1.5px solid var(--blue);
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  font-size: 1.2em;
+}
+.reviewArea .sendReviews .buttonSubmit
+{
+    right: 50px;
+    position: absolute;
+    padding-top: 10px;
+}
+.reviewArea .sendReviews button,
+.info .buttonCart button
+{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 23px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.reviewArea .review
+{
+    padding: 30px;
+    margin-top: 70px;
+    max-height: -webkit-fill-available;
+}
+.reviewArea .review .userName,
+.reviewArea .review .userReview
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.reviewArea .review .dateReview
+{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width:1701px)
+{
+	.detail
+	{
+		grid-template-columns: repeat(2, 1fr);
+	}
+ }
+
+@media (max-width:1201px)
+{
+	.detail
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }
+
+ @media (max-width:998px)
+{
+	.content
+	{
+		width: 100%;
+	}
+	.detail
+	{
+	    margin: 0;
+	}
+	.description
+	{
+	    margin: 20px;
+	    padding: 10px;
+	}
+	.reviewArea
+	{
+	    padding: 10px;
+        margin: 20px;
+	}
+ }

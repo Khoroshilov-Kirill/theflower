@@ -1,0 +1,56 @@
+.search label ion-icon {
+    top: 10px;
+}
+
+.titleContent
+{
+    text-align: center;
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.titleContent h3
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+}
+.wrapper
+{
+    position: relative;
+	display: flex;
+	justify-content: center;
+}
+.cardBox
+{
+	position: relative;
+	background: var(--white);
+	padding: 30px;
+	border-radius: 20px;
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	cursor: pointer;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+
+.row
+{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row input
+{
+    text-align: center;
+}
+
+.row img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+

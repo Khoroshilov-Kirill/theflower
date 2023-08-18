@@ -1,0 +1,35 @@
+{% extends "shops/base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block extra_head %}
+  <link rel="stylesheet" href='{%static "css/profile.css" %}' />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+{% endblock %}
+{% block navigation %}
+{% endblock %}
+
+{% block content %}
+<div class="titleContent">
+  <h3>Информация профиля</h3>
+</div>
+<div class="wrapper">
+  <div class="cardBox">
+    <div class="row form-group">
+    Логин: <input type="text" value="{{user_profile.username}}">
+    Имя: <input type="text" value="{{user_profile.first_name}}">
+    Фамилия: <input type="text" value="{{user_profile.last_name}}">
+    Email: <input type="text" value="{{user_profile.email}}">
+    Телефон: <input type="text" value="{{user_profile.phone}}">
+    Фото: <img src="{{user_profile.image.url}}" alt="">
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}
+
+
+{% block extra_script %}
+{% endblock %}

@@ -1,0 +1,36 @@
+.search label ion-icon
+{
+    top: 10px;
+}
+
+
+.titleContent h3
+{
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper
+{
+    position: relative;
+	background: var(--white);
+	margin: 25px;
+	padding: 30px;
+	border-radius: 20px;
+	display: flex;
+	width: auto;
+	height: 100%;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttonCreate,
+p
+{
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
+

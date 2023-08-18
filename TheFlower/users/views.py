@@ -1,7 +1,10 @@
 
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
+from django.views.generic import DetailView
+
 from .forms import UserRegistrationForm, LoginForm
+from  .models import CustomUser
 
 
 def registration(request):
@@ -39,3 +42,16 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect('index')
+
+
+class Profile(DetailView):
+    model = CustomUser
+    template_name = 'users/profile.html'
+
+    context_object_name = "user_profile"
+    # def get(self, request, username):
+    #     data = CustomUser.objects.filter(username=username)
+    #     context = {
+    #         'data': data
+    #     }
+    #     return render(request, self.template_name, context)

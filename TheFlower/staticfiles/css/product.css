@@ -1,0 +1,204 @@
+.titleContent
+{
+    text-align: center;
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.titleContent h3
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+}
+
+.cardBox
+{
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	caret-color: transparent;
+}
+
+.cardBox .card
+{
+	position: relative;
+	background: var(--white);
+	padding: 30px;
+	border-radius: 20px;
+	display: flex;
+	height: 100%;
+	justify-content: space-between;
+	cursor: pointer;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	flex-wrap: wrap;
+}
+.cardBox .card a
+{
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+}
+.cardBox .innerCard
+{
+    display:grid;
+}
+.cardBox .card .title
+{
+	position: relative;
+	font-weight: 500;
+	font-size: 2em;
+	color: var(--blue);
+	margin-bottom: 30px;
+}
+
+
+.cardBox .card .cardName
+{
+	color: var(--black2);
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+.cardBox .card .price
+{
+    color: var(--blue);
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.cardBox .card .social
+{
+	color: var(--black2);
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+.cardBox .card .imageBox
+{
+    position: relative;
+    display:flex;
+    align-items: center;
+    width:50%;
+    justify-content: center;
+}
+
+
+.cardBox .card .imageBox img
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 15%;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+.cardBox .card:hover
+{
+	background: var(--blue);
+}
+
+.cardBox .card:hover .title,
+.cardBox .card:hover .title a,
+.cardBox .card:hover .cardName
+
+{
+	color: var(--white);
+}
+.cardBox .card .count
+{
+	color: var(--black1);
+	font-size: 1.8em;
+	margin-top: 15px;
+    display:flex;
+    justify-content:center;
+}
+.cardBox .card .count .minus,
+.cardBox .card .count .number,
+.cardBox .card .count .plus
+{
+    display:flex;
+    width:40px;
+    height:40px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.cardBox .card .count .number
+{
+    width:60px;
+    border-radius: 30%;
+}
+.cardBox .card:hover .count .number,
+.cardBox .card:hover .count .minus,
+.cardBox .card:hover .count .plus
+{
+    background-color: var(--white);
+}
+
+.cardBox .card .buttonCart
+{
+    position: relative;
+    display:flex;
+    align-items: center;
+    width:50%;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.cardBox .card .buttonCart button
+{
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 23px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cardBox .card .buttonCart button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+@media (max-width:1701px)
+{
+	.cardBox
+	{
+		grid-template-columns: repeat(2, 1fr);
+	}
+ }
+
+@media (max-width:1201px)
+{
+	.cardBox
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }

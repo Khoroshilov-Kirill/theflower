@@ -61,8 +61,18 @@
 						<ion-icon name="search-outline"></ion-icon>
 					</label>
 				</div>
+
 				<div class="username prevent-select">
 					{% if request.user.is_authenticated %}
+					<div class="user">
+						<a href="{% url 'profile' pk=request.user.pk %}">
+						{% if request.user.image%}
+						<img src="{{request.user.image.url}}" alt="">
+						{% else %}
+						<img src="/media/users/avatar.jpg" alt="">
+						{% endif %}
+						</a>
+					</div>
 					Добро пожаловать: {{request.user.username}}
 					{%  else %}
 					<a href="{% url 'login' %}">Войдите</a> или <a href="{% url 'register' %}">зарегестрируйтесь</a>
