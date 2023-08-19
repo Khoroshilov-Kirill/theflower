@@ -1,10 +1,13 @@
 
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout
-from django.views.generic import DetailView
+from django.urls import reverse
+from django.views.generic import UpdateView
 from django.contrib import messages
-from .forms import UserRegistrationForm, LoginForm
+from .forms import UserRegistrationForm, LoginForm, UserUpdateForm
 from .models import CustomUser
+
+
 
 
 def registration(request):
@@ -47,11 +50,18 @@ def logout_view(request):
     return redirect('index')
 
 
-class Profile(DetailView):
+class Profile(UpdateView):
     model = CustomUser
+    form_class = UserUpdateForm
     template_name = 'users/profile.html'
 
-    context_object_name = "user_profile"
+
+    def get_success_url(self):
+        messages.add_message(self.request, messages.INFO, 'Данные профиля успешно изменены')
+        return reverse('index',)
+
+
+
     # def get(self, request, username):
     #     data = CustomUser.objects.filter(username=username)
     #     context = {
