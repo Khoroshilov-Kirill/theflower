@@ -7,7 +7,7 @@
 {
     position: absolute;
     height: 45%;
-    width: calc(100% - 150px);
+    width: 100%;
   }
 
 .name a
