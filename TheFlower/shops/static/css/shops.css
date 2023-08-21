@@ -33,6 +33,7 @@
 	justify-content: space-between;
 	cursor: pointer;
 	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	flex-direction: row;
 }
 
 .cardBox .card .title

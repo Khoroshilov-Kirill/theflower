@@ -1,3 +1,8 @@
+hr
+{
+    margin: 0;
+}
+
 .detail
 {
     display: grid;
@@ -24,7 +29,8 @@
 	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 	flex-wrap: wrap;
 	flex-direction: column;
-	max-height: 500px;
+	max-height: fit-content;
+	justify-content: center;
 }
 .detail .imageCard
 {

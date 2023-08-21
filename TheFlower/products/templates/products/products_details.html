@@ -29,12 +29,13 @@
             <div class="phone">Телефон: {{products.first.shop_id.phone}}</div>
             <div class="amount">Количество в наличии: {{products.first.amount}} шт.</div>
             <div class="price">Цена: {{products.first.price}} грн/шт.</div>
-            <div class="count">
-              <div class="minus">-</div>
-              <div class="number" data-amount="{{products.first.amount}}">1</div>
-              <div class="plus">+</div>
-            </div>
+
             <div class="buttonCart">
+                <div class="count">
+                  <div class="minus">-</div>
+                  <div class="number" data-amount="{{products.first.amount}}">1</div>
+                  <div class="plus">+</div>
+                </div>
                 <button type="submit">В корзину</button>
             </div>
 

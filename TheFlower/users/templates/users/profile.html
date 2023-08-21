@@ -23,14 +23,18 @@
 
                 {% if form.is_bound %}
                     {% if field.errors %}
-                        {% render_field field class="form-control is-invalid" %}
-                        {% for error in field.errors %}
+                    {{ field.label_tag }}
+                    {% render_field field class="form-control is-invalid" %}
+                    {% for error in field.errors %}
                             <div class="invalid-feedback">
                               {{ error }}
                             </div>
                         {% endfor %}
                     {% else %}
+                    {% if field is not form.image %}
+                        {{ field.label_tag }}
                         {% render_field field class="form-control is-valid" %}
+                    {% endif %}
                     {% endif %}
                 {% else %}
                     {% if field is not form.image %}
