@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import get_user_model, authenticate
+from django.forms import ClearableFileInput
 from django.utils.translation import gettext_lazy as gtl
 
 
@@ -56,6 +57,9 @@ class LoginForm(forms.Form):
         user = authenticate(username=username, password=password)
         return user
 
+class ImageFieldWidgetWithPreview(ClearableFileInput):
+    template_name = 'users/custom_image_form_field.html'
+
 
 class UserUpdateForm(forms.ModelForm):
     class Meta:
@@ -69,3 +73,7 @@ class UserUpdateForm(forms.ModelForm):
             'phone': 'Телефон',
             'image': 'Фото профиля',
         }
+        widgets = {
+            'image': ImageFieldWidgetWithPreview
+        }
+

@@ -18,7 +18,8 @@
 .wrapper
 {
     position: relative;
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 }
 .cardBox
@@ -29,28 +30,24 @@
 	border-radius: 20px;
 	display: flex;
 	height: 100%;
-	justify-content: space-between;
+    justify-content: center;
 	cursor: pointer;
 	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
-
-.row
-{
-    display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
+	margin:10px;
 }
-.row input
+.userphoto
 {
-    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
-.row img
+@media (max-width:1201px)
 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%
-}
-
+	.wrapper
+	{
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }
