@@ -1,5 +1,6 @@
 {% extends "shops/base.html" %}
 {% load static %}
+{% load stars_range %}
 {% block extra_head %}
     <link rel="stylesheet" href='{%static "css/product_details.css" %}' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -73,7 +74,11 @@
 
             <div class="review">
                 {% for review in reviews %}
-                <div class="userName">{{review.user_id}}</div>
+                <div class="userName">{{review.user_id}}
+                    {% for i in review.stars|stars_range %}
+                        <i class="rating__star fa fa-star" aria-hidden="true"></i>
+                    {% endfor %}
+
                 <hr align="center" width=auto size="3" color="#287bff" />
                 <div class="userReview">{{review.review}}</div>
                 <div class="dateReview">{{review.date|date:"d-m-Y"}}</div>
