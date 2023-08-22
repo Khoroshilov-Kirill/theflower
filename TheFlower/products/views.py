@@ -30,10 +30,11 @@ def details(request, pk, shop_id):
         if form.is_valid and request.user.is_authenticated:
             instance = form.save(commit=False)
             instance.user_id = request.user
-            instance.stars = 4
+            instance.stars = request.POST.get('ratings')
             instance.shop_id = shop
             instance.product_id = prod[0]
             instance.save()
+            return redirect(request.META['HTTP_REFERER'])
         else:
             return redirect('login')
 

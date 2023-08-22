@@ -189,8 +189,6 @@ hr
     display: none;
 }
 
-
-
 .stars ul li label
 {
     display: block;
@@ -254,6 +252,13 @@ hr
     display: flex;
     flex-direction: row-reverse;
 }
+
+.userName i
+{
+    color: yellow;
+    text-shadow: 2px 2px 7px grey;
+}
+
 
 @media (max-width:1701px)
 {
