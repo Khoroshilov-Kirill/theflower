@@ -79,7 +79,7 @@
 }
 
 .cardBox .card:hover .title,
-.cardBox .card:hover .title a,
+.cardBox .card:hover .social a,
 .cardBox .card:hover .cardName
 {
 	color: var(--white);
@@ -87,7 +87,7 @@
 
 
 
-@media (max-width:1701px)
+@media (max-width:1901px)
 {
 	.cardBox
 	{
@@ -95,7 +95,7 @@
 	}
  }
 
-@media (max-width:1201px)
+@media (max-width:1601px)
 {
 	.cardBox
 	{
