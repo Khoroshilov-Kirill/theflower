@@ -1,7 +1,8 @@
 {% extends "shops/base.html" %}
 {% load static %}
 {% block extra_head %}
-  <link rel="stylesheet" href='{%static "css/product_details.css" %}' />
+    <link rel="stylesheet" href='{%static "css/product_details.css" %}' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
 {% block navigation %}
@@ -22,6 +23,7 @@
         </div>
         <div class="info">
             <div class="title">{{products.first.title}}</div>
+            <div class="rating">Средняя оценка: {{stars.stars__avg|floatformat:2}}</div>
             <div class="category">Категория: {{products.first.category_id}}</div>
             <div class="shop">Продавец: {{products.first.shop_id}}</div>
             <div class="city">Город: {{products.first.shop_id.city}}</div>
@@ -32,9 +34,9 @@
 
             <div class="buttonCart">
                 <div class="count">
-                  <div class="minus">-</div>
+                  <div class="minus prevent-select">-</div>
                   <div class="number" data-amount="{{products.first.amount}}">1</div>
-                  <div class="plus">+</div>
+                  <div class="plus prevent-select">+</div>
                 </div>
                 <button type="submit">В корзину</button>
             </div>
@@ -48,8 +50,19 @@
             <span>{{products.first.description}}</span>
         </div>
         <div class="reviewArea">
+
             <form method="POST">
                 {% csrf_token %}
+            <div class="stars">
+                <div class="titleStars">Оцените товар:</div>
+                <ul class="prevent-selected">
+                    <li><label for="stars_1"><i class="rating__star fa fa-star" aria-hidden="true"></i></label><input type="radio" name="ratings" id="stars_1" value="1"></li>
+                    <li><label for="stars_2"><i class="rating__star fa fa-star" aria-hidden="true"></i></label><input type="radio" name="ratings" id="stars_2" value="2"></li>
+                    <li><label for="stars_3"><i class="rating__star fa fa-star" aria-hidden="true"></i></label><input type="radio" name="ratings" id="stars_3" value="3"></li>
+                    <li><label for="stars_4"><i class="rating__star fa fa-star" aria-hidden="true"></i></label><input type="radio" name="ratings" id="stars_4" value="4"></li>
+                    <li><label for="stars_5"><i class="rating__star fa fa-star" aria-hidden="true"></i></label><input type="radio" name="ratings" id="stars_5" value="5" checked="checked"></li>
+                </ul>
+            </div>
             <div class="sendReviews">
                 {{formReview}}
                 <div class="buttonSubmit">
@@ -85,4 +98,6 @@
 
 {% block extra_script %}
   <script type="text/javascript" src = '{%static "js/counter.js" %}'></script>
+  <script type="text/javascript" src = '{%static "js/stars.js" %}'></script>
+
 {% endblock %}

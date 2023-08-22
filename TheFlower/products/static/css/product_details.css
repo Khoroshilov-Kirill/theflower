@@ -79,7 +79,6 @@ hr
 {
 	color: var(--black1);
 	font-size: 1.8em;
-	margin-top: 15px;
     display:flex;
     justify-content:center;
 }
@@ -95,6 +94,7 @@ hr
     justify-content: center;
     align-items: center;
     margin: 10px;
+    cursor: pointer;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 
 }
@@ -116,7 +116,7 @@ hr
     position: relative;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -148,6 +148,54 @@ hr
 {
     text-align: justify;
     line-height: 1.5;
+}
+.stars
+{
+    display: flex;
+    align-items: center;
+}
+
+.stars .titleStars
+{
+    padding-right: 15px;
+}
+.stars ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+.stars ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 2px 7px grey;
+    font-size: 25px !important;
+}
+.stars ul li:hover
+{
+    color: yellow;
+}
+
+.stars ul li .rating__star
+{
+    color: yellow;
+}
+
+.stars input[type="radio"]
+{
+    display: none;
+}
+
+
+
+.stars ul li label
+{
+    display: block;
+    width: 100%;
+
 }
 
 .reviewArea .sendReviews textarea
@@ -242,5 +290,14 @@ hr
 	{
 	    padding: 10px;
         margin: 20px;
+	}
+    .stars
+    {
+        justify-content: center;
+    }
+
+	.stars .titleStars
+	{
+	    display:none
 	}
  }

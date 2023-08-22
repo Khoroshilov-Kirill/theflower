@@ -2,7 +2,8 @@ from django.shortcuts import render, redirect
 from .models import Category, Product, Review
 from .forms import SendReview
 from shops.models import Shop
-from django.contrib.auth.decorators import login_required
+from django.db.models import Avg
+
 
 
 def product(request,shop_id):
@@ -22,7 +23,8 @@ def details(request, pk, shop_id):
     prod = Product.objects.filter(pk=pk)
     reviews = Review.objects.filter(product_id=pk)
     shop = Shop.objects.get(pk=shop_id)
-    context = {'products': prod,'categories': cat, 'shop_id': shop_id, 'reviews': reviews, }
+    avg_stars = reviews.aggregate(Avg('stars'))
+    context = {'products': prod,'categories': cat, 'shop_id': shop_id, 'reviews': reviews, 'stars': avg_stars}
     if request.method == 'POST':
         form = SendReview(request.POST)
         if form.is_valid and request.user.is_authenticated:
